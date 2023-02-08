@@ -4,6 +4,7 @@ import org.junit.Test;
 
 import java.util.List;
 import static org.junit.Assert.*;
+import static org.mockito.Matchers.anyInt;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
@@ -27,7 +28,8 @@ public class MockList {
     @Test
     public void mockListGetTestReturnMultipleValues(){
         List listMock = mock(List.class);
-        when(listMock.get(0)).thenReturn("null");
-        assertEquals("null", listMock.get(0));
+        //Any argument matcher
+        when(listMock.get(anyInt())).thenReturn("Hello Talazen");
+        assertEquals("Hello Talazen", listMock.get(0));
     }
 }
