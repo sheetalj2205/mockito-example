@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0545eeba-93f6-4076-85bb-b3536b54810c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/tala/mockito/business/TodoBusinessImplMockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/tala/mockito/MockList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/tala/mockito/business/TodoBusinessImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/tala/mockito/business/TodoBusinessImplStubTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +18,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit3 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -38,33 +37,35 @@
     </option>
   </component>
   <component name="ProjectId" id="2LRdPhgBsCd4HUnSRNzrARf8Qs7" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit3",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3": "junit.framework.TestCase",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "project.propCompiler",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit3&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3&quot;: &quot;junit.framework.TestCase&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propCompiler&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="junit.framework.TestCase" />
@@ -76,7 +77,55 @@
       <recent name="com.tala.mockito.business" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TodoBusinessImplMockTest.testRetrieveTodosRelatedToTala_usingMock">
+  <component name="RunManager" selected="JUnit.MockList.mockListGetTestReturnMultipleValues">
+    <configuration name="MockList.mockListGetTestReturnMultipleValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mockito-example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tala.mockito.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tala.mockito" />
+      <option name="MAIN_CLASS_NAME" value="com.tala.mockito.MockList" />
+      <option name="METHOD_NAME" value="mockListGetTestReturnMultipleValues" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MockList.mockListTestReturnMultipleValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mockito-example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tala.mockito.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tala.mockito" />
+      <option name="MAIN_CLASS_NAME" value="com.tala.mockito.MockList" />
+      <option name="METHOD_NAME" value="mockListTestReturnMultipleValues" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MockList.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mockito-example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tala.mockito.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tala.mockito" />
+      <option name="MAIN_CLASS_NAME" value="com.tala.mockito.MockList" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TodoBusinessImplMockTest.testRetrieveTodosRelatedToTala_usingMock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mockito-example" />
       <extension name="coverage">
@@ -89,21 +138,6 @@
       <option name="MAIN_CLASS_NAME" value="com.tala.mockito.business.TodoBusinessImplMockTest" />
       <option name="METHOD_NAME" value="testRetrieveTodosRelatedToTala_usingMock" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TodoBusinessImplStubTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mockito-example" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tala.mockito.business.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.tala.mockito.business" />
-      <option name="MAIN_CLASS_NAME" value="com.tala.mockito.business.TodoBusinessImplStubTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -126,9 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MockList.mockListGetTestReturnMultipleValues" />
+        <item itemvalue="JUnit.MockList.mockListTestReturnMultipleValues" />
+        <item itemvalue="JUnit.MockList.test" />
         <item itemvalue="JUnit.TodoBusinessImplMockTest.testRetrieveTodosRelatedToTala_usingMock" />
         <item itemvalue="JUnit.TodoBusinessImplStubTest.testRetrieveTodosRelatedToTala_usingStub" />
-        <item itemvalue="JUnit.TodoBusinessImplStubTest" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +177,8 @@
       <option name="presentableId" value="Default" />
       <updated>1675837806729</updated>
       <workItem from="1675837807983" duration="2529000" />
-      <workItem from="1675844285585" duration="4420000" />
+      <workItem from="1675844285585" duration="4677000" />
+      <workItem from="1675861830786" duration="2090000" />
     </task>
     <servers />
   </component>
@@ -162,5 +199,10 @@
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/mockito_example$TodoBusinessImplMockTest_testRetrieveTodosRelatedToTala_usingMock.ic" NAME="TodoBusinessImplMockTest.testRetrieveTodosRelatedToTala_usingMock Coverage Results" MODIFIED="1675862074163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.tala.mockito.business.*</FILTER>
+    </SUITE>
   </component>
 </project>
