@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0545eeba-93f6-4076-85bb-b3536b54810c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/tala/mockito/business/TodoBusinessImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/tala/mockito/business/TodoBusinessImplMockTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tala/mockito/business/TodoBusinessImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tala/mockito/business/TodoBusinessImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/tala/data/api/TodoServiceStub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/tala/data/api/TodoServiceStub.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/tala/mockito/business/TodoBusinessImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/tala/mockito/business/TodoBusinessImplStubTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +61,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "project.propCompiler",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -71,9 +72,12 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.tala.mockito.business" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.tala.mockito.business" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.TodoBusinessImplTest.testRetrieveTodosRelatedToTala_usingStub">
-    <configuration name="TodoBusinessImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TodoBusinessImplMockTest.testRetrieveTodosRelatedToTala_usingMock">
+    <configuration name="TodoBusinessImplMockTest.testRetrieveTodosRelatedToTala_usingMock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mockito-example" />
       <extension name="coverage">
         <pattern>
@@ -82,13 +86,29 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.tala.mockito.business" />
-      <option name="MAIN_CLASS_NAME" value="com.tala.mockito.business.TodoBusinessImplTest" />
+      <option name="MAIN_CLASS_NAME" value="com.tala.mockito.business.TodoBusinessImplMockTest" />
+      <option name="METHOD_NAME" value="testRetrieveTodosRelatedToTala_usingMock" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TodoBusinessImplStubTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mockito-example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tala.mockito.business.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tala.mockito.business" />
+      <option name="MAIN_CLASS_NAME" value="com.tala.mockito.business.TodoBusinessImplStubTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TodoBusinessImplTest.testRetrieveTodosRelatedToTala_usingStub" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TodoBusinessImplStubTest.testRetrieveTodosRelatedToTala_usingStub" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mockito-example" />
       <extension name="coverage">
         <pattern>
@@ -97,7 +117,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.tala.mockito.business" />
-      <option name="MAIN_CLASS_NAME" value="com.tala.mockito.business.TodoBusinessImplTest" />
+      <option name="MAIN_CLASS_NAME" value="com.tala.mockito.business.TodoBusinessImplStubTest" />
       <option name="METHOD_NAME" value="testRetrieveTodosRelatedToTala_usingStub" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -106,8 +126,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TodoBusinessImplTest.testRetrieveTodosRelatedToTala_usingStub" />
-        <item itemvalue="JUnit.TodoBusinessImplTest" />
+        <item itemvalue="JUnit.TodoBusinessImplMockTest.testRetrieveTodosRelatedToTala_usingMock" />
+        <item itemvalue="JUnit.TodoBusinessImplStubTest.testRetrieveTodosRelatedToTala_usingStub" />
+        <item itemvalue="JUnit.TodoBusinessImplStubTest" />
       </list>
     </recent_temporary>
   </component>
@@ -120,7 +141,7 @@
       <option name="presentableId" value="Default" />
       <updated>1675837806729</updated>
       <workItem from="1675837807983" duration="2529000" />
-      <workItem from="1675844285585" duration="2804000" />
+      <workItem from="1675844285585" duration="4420000" />
     </task>
     <servers />
   </component>
@@ -137,5 +158,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

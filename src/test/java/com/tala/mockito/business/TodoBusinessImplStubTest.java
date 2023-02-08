@@ -5,7 +5,7 @@ import com.tala.mockito.data.api.TodoService;
 import junit.framework.TestCase;
 import java.util.List;
 
-public class TodoBusinessImplTest extends TestCase {
+public class TodoBusinessImplStubTest extends TestCase {
 
     public void testRetrieveTodosRelatedToTala_usingStub(){
         TodoService todoServiceStub = new TodoServiceStub();
