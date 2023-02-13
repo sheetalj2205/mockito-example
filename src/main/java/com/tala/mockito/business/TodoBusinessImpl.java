@@ -18,7 +18,7 @@ public class TodoBusinessImpl {
         List<String> todos = todoService.retrieveTodos(user);
 
         for (String todo : todos) {
-            if (todo.contains("tala")) {
+            if (todo.contains("Tala")) {
                 filteredTodos.add(todo);
             }
         }
